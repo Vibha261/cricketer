@@ -1,0 +1,205 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #e5dbdb;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  header {
+    font-weight: 400;
+    height: 50px;
+    background: #030303;
+    color: #ffffff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 30px;
+    box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.1);
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    background-color: #0c0000;
+    color: #fff;
+  }
+  
+  nav li a {
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  nav li ul {
+    position: absolute;
+    display: none;
+    background-color: #333;
+    padding: 0;
+  }
+  
+  nav li:hover ul {
+    display: block;
+  }
+  
+  nav li ul li {
+    display: block;
+  }
+  
+  main {
+    margin: 5px;
+    padding: 10px;
+  }
+  h1{
+    font-size: 80px;
+  }
+  
+  h2 {
+    margin: 20px;
+    color: #333;
+  }
+  h3{
+    margin: 30px;
+  }
+  #about {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 20px 0;
+}
+
+#profile {
+    /* margin-right: 20px; */
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+}
+
+#detail {
+    clear: both;
+    line-height: 1.5;
+    text-align: justify;
+    /* flex-grow: 1; */
+    margin: 20px;
+}
+#info {
+    border-collapse: collapse;
+    width: 50%;
+    margin-left: 20px;
+}
+
+#info th, #info td {
+    /* border: 1px solid #dddddd; */
+    padding: 7px;
+    text-align: left;
+}
+
+#info th {
+    background-color: #a75555fa;
+    color: white;
+}
+
+#lifeimage {
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #lifeimage img {
+    width: 33%;
+    height: auto;
+  }
+  
+  #life_p {
+    margin: 20px;
+    line-height: 1.5;
+  }
+  
+#imcar {
+    display: block;
+    width: 500px;
+    height: auto;
+    margin: 0 auto;
+}
+
+#career_p {
+    margin: 20px;
+    color: #050505;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+#early, #international, #domestic {
+    margin-top: 10px;
+}
+#record {
+    margin: 20px;
+}
+#record_p {
+    color: #070707;
+    line-height: 1.5;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+#record_p ul {
+    list-style-type: disc;
+    padding-left: 40px;
+}
+
+#record_p ul li {
+    margin-bottom: 10px;
+}
+#captain {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px 0;
+    font-size: 16px;
+}
+
+#captain th,
+#captain td {
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 15px;
+}
+
+#captain th {
+    background-color:  #a75555fa;
+    color: white;
+}
+#visit {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;  
+    padding: 20px;
+}
+
+#visit a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+#visit img {
+    width: 100px;
+    height: auto;
+}
+  footer {
+    height: 30px;
+    background-color: #020202;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
